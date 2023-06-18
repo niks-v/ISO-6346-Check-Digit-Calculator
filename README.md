@@ -16,16 +16,16 @@ const output = validator.calculateCheckDigitData(containerCode)
 
 ## Output:
 ```
-    {
-      valid: [Boolean],
-      input: [Input - Exactly What is Entered],
-      ownerCode: [String - Owner Code],
-      categoryIdentifier: [String - Category Identifier],
-      serialNumber: [String - Serial Number],
-      UserCheckDigit: [String - User Input Check Digit],
-      OCS: [String - Combination of Owner Code, Category Identifier and Serial Number],
-      CheckDigit: [String - Actual Check Digit],
-      ReasonFalse: [String - Reason for valid === false],
-      output: [String - Container Code, Either Valid or Not Valid (If not valid it will just be the user input)]
-    }
+{
+  valid: [Boolean],
+  input: [Input - Exactly What is Entered],
+  ownerCode: [String - Owner Code],
+  categoryIdentifier: [String - Category Identifier],
+  serialNumber: [String - Serial Number],
+  UserCheckDigit: [String - User Input Check Digit],
+  OCS: [String - Combination of Owner Code, Category Identifier and Serial Number],
+  CheckDigit: [String - Actual Check Digit],
+  ReasonFalse: [String - Reason for valid === false],
+  output: [String - Container Code, Either Valid or Not Valid (If not valid it will just be the user input)]
+}
 ```
