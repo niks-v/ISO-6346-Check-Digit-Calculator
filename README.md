@@ -1,5 +1,6 @@
 # ISO 6346 Check Digit Calculator
 An ISO 6346 check digit calculator created in javascript. This module will work client side or server side and is relatively simple to use.
+This calculator was made specifically for shipping containers.
 
 See the check digit calculator in action @ https://www.abcchs.com.au/check-digit-calculator
 
