@@ -30,3 +30,5 @@ const output = validator.calculateCheckDigitData(containerCode)
   output: [String - Container Code, Either Valid or Not Valid (If not valid it will just be the user input)]
 }
 ```
+
+Please don't use this on your public website without permission -> Discord: `coding.`
