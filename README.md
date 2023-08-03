@@ -19,7 +19,7 @@ const output = validator.calculateCheckDigitData(containerCode)
 ```
 {
   valid: [Boolean],
-  input: [Input - Exactly What is Entered],
+  input: [String - Exactly What is Given to Function],
   ownerCode: [String - Owner Code],
   categoryIdentifier: [String - Category Identifier],
   serialNumber: [String - Serial Number],
