@@ -26,7 +26,7 @@ const output = validator.calculateCheckDigitData(containerCode)
   UserCheckDigit: [String - User Input Check Digit],
   OCS: [String - Combination of Owner Code, Category Identifier and Serial Number],
   CheckDigit: [String - Actual Check Digit],
-  ReasonFalse: [String - Reason for valid === false],
+  ReasonFalse: [String - Reason why valid === false],
   output: [String - Container Code, Either Valid or Not Valid (If not valid it will just be the user input)]
 }
 ```
